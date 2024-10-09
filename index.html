@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+     <link rel="stylesheet" href="style.css">
+  
+    <!-- daysi ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.12/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!--Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <style>
+        .poppins-thin{
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+    <title>Tour</title>
+</head>
+
+
+<body class="poppins-thin">
+        <header class=" mb-10">
+            <!-- navebar -->
+            <div class="navbar bg-black text-white justify-between ">
+              <div class="navbar-start">
+                <div class="dropdown">
+                  <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                  </div>
+                  <ul
+                    tabindex="0"
+                    class="menu menu-sm dropdown-content text-lg bg-black rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#pages">Pages</a></li>
+                    <li><a href="#tourlist">Tour List</a></li>
+                    <li><a href="#toursearch">Tour Search</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    
+                    
+                  </ul>
+                </div>
+                <img class="ms-10" src="image/logo-camper.png" alt="">
+              </div>
+              <div class="navbar-center hidden lg:flex">
+                <ul  class="menu menu-horizontal text-lg px-1 me-10">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#pages">Pages</a></li>
+                  <li><a href="#tourlist">Tour List</a></li>
+                  <li><a href="#toursearch">Tour Search</a></li>
+                  <li><a href="#blog">Blog</a></li>
+                </ul>
+              </div>
+              <!-- navbar-end">
+               </div> -->
+              </div>
+              
+            
+
+          <!-- Cover  -->
+          <div
+          id="home"
+          class="hero min-h-screen"
+          style="background-image: url(image/hero-campger-bg.jpg);">
+          <div class="hero-overlay bg-opacity-10"></div>
+          <div class="hero-content text-neutral-content text-center">
+            <div id="content" class="max-w-md ">
+              <h3 id="h3-tag" class="text-4xl font-bold mb-5">Explore</h3>
+              <h1 id="h1-tag" class="mb-5 text-5xl font-bold">The New World</h1>
+              <p  class="mb-5 text-inline">
+                Discover and book tent camping, RV parks, cabins, treehouses, and glamping..
+              </p>
+              <button class="btn hover:btn-warning hover:text-white text-lg">Discover Tour</button>
+            </div>
+          </div>
+        </div>
+           
+
+        </header>
+
+
+      <main  >
+<!-- card-section -->
+      <div
+      id="pages"
+          class="hero min-h-screen mb-10"
+          style="background-image: url(image/top-bg.jpg);">
+          <div class="md:w-full"></div>
+
+          <div  class="hero-content mt-52 text-center grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
+            <!-- card1 -->
+             <div class="max-w-md ">
+              <img  class="h-40 mb-5 lg:ms-28 md:ms-[60px] ms-28" src="image/icon1.png" alt="">
+                <div class=" text-center mb-5">
+                   <h1 class="text-black font-semibold text-xl mb-5">15 Years of Experiences</h1>
+                   <p class="text-xl">Host our community of good-natured campers, glampers, and RV travelers on your land or at your cabin.</p>
+                </div>
+            </div>
+
+
+            <div class="max-w-md ">
+              <img class="h-40 mb-5 lg:ms-28 md:ms-[60px] ms-28 " src="image/icon2.png" alt="">
+                <div class=" text-center mb-5">
+                   <h1 class="text-black font-semibold text-xl mb-5">200+ Camps To Visit
+                  </h1>
+                   <p class="text-xl">Host our community of good-natured campers, glampers, and RV travelers on your land or at your cabin.</p>
+                </div>
+            </div>
+
+
+            <div class="max-w-md ">
+              <img class="h-40 mb-5 lg:ms-28 md:ms-[60px] ms-28" src="image/icon3.png" alt="">
+                <div class=" text-center mb-5">
+                   <h1 class="text-black font-semibold text-xl mb-5">Big Community
+                  </h1>
+                   <p class="text-xl">Host our community of good-natured campers, glampers, and RV travelers on your land or at your cabin.</p>
+                </div>
+            </div>
+
+           
+
+
+          </div>
+      </div>
+      <!-- card section-1 -->
+      <h1  class="container mx-auto sm:ms-10 text-2xl font-semibold mb-10">By Activities</h1>
+        <div id="tourlist"class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 mb-10 ms-5 me-5">
+          <div class="box">
+            <img  src="image/kevin-ianeselli-ebnlHkqfUHY-unsplash-600x800.jpg" alt="">
+            <h1 class="text-xl font-semibold -mt-10 text-center text-white">Backpacking Trips</h1>
+          </div>
+          <div class="box">
+            <img  src="image/tommy-lisbin-xr-y6Ruw7K8-unsplash-600x800.jpg" alt="">
+            <h1 class="text-xl font-semibold -mt-10 text-center text-white">Basecamp Tours</h1>
+          </div>
+          <div class="box">
+            <img  src="image/dominik-jirovsky-re2LZOB2XvY-unsplash-1-600x800.jpg" alt="">
+            <h1 class="text-xl font-semibold -mt-10 text-center text-white">Family Camping</h1>
+          </div>
+          <div class="box">
+            <img  src="image/aldeen-li-jH2vyek3t8Q-unsplash-600x800.jpg" alt="">
+            <h1 class="text-xl font-semibold -mt-10 text-center text-white">Glamping</h1>
+          </div>
+        </div>
+
+        <!-- card-section-2 -->
+        <h1 id="pages-2" class="container mx-auto sm:ms-10 text-2xl font-semibold mt-32 mb-10">Our Popular Tours</h1>  
+        <div id="toursearch" class="ms-5 me-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-5">
+          <!-- card1 -->
+          <div class="card  ">
+            
+              <img
+              class="pages"
+                src="image/nicole-giampietro-jZ5FymUZBqQ-unsplash-900x500.jpg"
+                alt="" />
+                <h1 class="text-lg font-semibold text-white bg-black rounded-md  w-36 ps-3 ms-5 -mt-10">Popular Tour</h1>
+            
+            <div class="card-body">
+              <h2 class="text-xl font-semibold text-start">Munich Springfest Camping</h2>
+              <p class="text-lg ">3 days <br> Munich, Germany <br> From <span class="text-yellow-500">$3,800</span>   </p>
+            </div>
+          </div>
+
+          <!-- card2 -->
+
+          <div class="card ">
+            
+            <img
+            class="pages"
+              src="image/jace-afsoon-K4XHqPZq66c-unsplash-900x500.jpg"
+              alt="" />
+              <h1 class="text-lg font-semibold text-white bg-black rounded-md  w-36 ps-3 ms-5 -mt-10">Popular Tour</h1>
+          
+          <div class="card-body">
+            <h2 class="text-xl font-semibold text-start">9 Days Tour du Mont Blanc Camping Trek</h2>
+            <p class="text-lg ">9 days 8 night <br>Chamonix, France <br> From <span class="text-yellow-500">$5,800</span>   </p>
+          </div>
+        </div>
+
+        <!-- card3 -->
+
+        <div class="card ">
+            
+          <img
+          class="pages"
+            src="image/daniel-j-schwarz-Hhe9c31780A-unsplash-900x500.jpg"
+            alt="" />
+            <h1 class="text-lg font-semibold text-white bg-black rounded-md  w-36 ps-3 ms-5 -mt-10">Popular Tour</h1>
+        
+        <div class="card-body">
+          <h2 class="text-xl font-semibold text-start">3 Days Camping Tour du Mont Blanc </h2>
+          <p class="text-lg ">3 days <br> Laon, France <br> From <span class="text-yellow-500">$5,500</span>   </p>
+        </div>
+      </div>
+
+
+        </div>
+
+
+
+        <!-- card-section-3 -->
+        <h1 id="pages-2" class="container mx-auto sm:ms-10 text-2xl font-semibold mt-20 mb-10">New Tours</h1>  
+        <div class="ms-5 me-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-5">
+          <!-- card1 -->
+          <div class="card  ">
+            
+              <img
+              class="pages"
+                src="image/aaron-benson-200753-unsplash-900x500.jpg"
+                alt="" />
+                <h1 class="text-lg font-semibold text-white bg-black rounded-md  w-36 ps-3 ms-5 -mt-10">Popular Tour</h1>
+            
+            <div class="card-body">
+              <h2 class="text-xl font-semibold text-start">Munich Springfest Camping</h2>
+              <p class="text-lg ">3 days <br> Munich, Germany <br> From <span class="text-yellow-500">$3,800</span>   </p>
+            </div>
+          </div>
+
+          <!-- card2 -->
+
+          <div class="card ">
+            
+            <img
+            class="pages"
+              src="image/pexels-photo-442559-900x500.jpeg"
+              alt="" />
+              <h1 class="text-lg font-semibold text-white bg-black rounded-md  w-36 ps-3 ms-5 -mt-10">Popular Tour</h1>
+          
+          <div class="card-body">
+            <h2 class="text-xl font-semibold text-start">9 Days Tour du Mont Blanc Camping Trek</h2>
+            <p class="text-lg ">9 days 8 night <br>Chamonix, France <br> From <span class="text-yellow-500">$5,800</span>   </p>
+          </div>
+        </div>
+
+        <!-- card3 -->
+
+        <div class="card ">
+            
+          <img
+          class="pages"
+            src="image/sheelah-brennan-1nGe9E1M9B0-unsplash-900x500.jpg"
+            alt="" />
+            <h1 class="text-lg font-semibold text-white bg-black rounded-md  w-36 ps-3 ms-5 -mt-10">Popular Tour</h1>
+        
+        <div class="card-body">
+          <h2 class="text-xl font-semibold text-start">3 Days Camping Tour du Mont Blanc </h2>
+          <p class="text-lg ">3 days <br> Laon, France <br> From <span class="text-yellow-500">$5,500</span>   </p>
+        </div>
+      </div>
+
+
+        </div>
+
+
+        <!-- waves-part -->
+
+<!--         
+          <div
+          class="hero min-h-screen"
+          style="background-image: url(image/wave-bg.jpg);">
+          <div class=""></div>
+          <div class="hero-content  text-left ms-96">
+            <div class="max-w-md">
+              <h1 class="mb-5 text-3xl font-bold">Camper is the best way to find camping tours. Let’s make the most memorable adventures.</h1>
+              <p class="mb-5 text-lg">
+                Camper Tour is an incredible way to have an adventurous outdoor  experience of world renowned national parks and wilderness destinations  while hiking with only a light daypack and sleeping soundly in  comfortable, vehicle-accessible camps.
+              </p>
+
+              <div class="flex gap-40">
+                <img src="image/w1.jpg" alt="">
+                <img src="image/map.png" alt="">
+              </div>
+              <div class="flex gap-40">
+                 <div>
+                    <p class="text-2xl text-yellow-500">1980</p>
+                    <p class="text-xl font-bold">The First Trip We Operated</p>
+                    <p class="lg">We are in this industries for more than 40 year!</p>
+                 </div>
+                 <div>
+                  <p class="text-2xl text-yellow-500">1980</p>
+                  <p class="text-xl font-bold">The First Trip We Operated</p>
+                  <p class="lg">We are in this industries for more than 40 year!</p>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+       
+
+       
+
+        <!-- g-section -->
+         <div  class="grid  grid-cols-1 md:grid-cols-5 lg:grid-cols-5">
+            <img src="image/g1.png" alt="">
+            <img src="image/g2.png" alt="">
+            <img src="image/g3.png" alt="">
+            <img src="image/g4.png" alt="">
+            <img src="image/g5.png" alt="">
+         </div>
+
+         <!-- Get the Latest News -->
+         
+              <div
+              class="hero mt-20 mb-20"
+              style="background-image: url(image/hp-blog-bg.jpg);">
+              
+              <div class="ms-5 me-5 mt-60 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-5">
+                <!-- card1 -->
+                    <div class="card  ">
+                    
+                      <img
+                      class="pages"
+                        src="image/lucija-ros-538672-unsplash-700x500.jpg"
+                        alt="" />
+                        <!-- <h1 class="text-lg font-semibold text-white bg-black rounded-md  w-36 ps-3 ms-5 -mt-10">Popular Tour</h1> -->
+                    
+                    <div class="card-body">
+                      <h2 class="text-xl font-semibold text-start">Tips for a Safe and Enjoyable Tour</h2>
+                      <p class="text-lg ">March 10, 2023•Jane Smith  </p>
+                      <div class="">
+                        <button class="btn hover:btn-warning hover:text-white me-2">Camping</button>
+                        <button class="btn hover:btn-warning hover:text-white">Travel</button>
+                    </div>
+                    </div>
+                    </div>
+      
+                <!-- card2 -->
+      
+                    <div class="card ">
+                      
+                      <img
+                      class="pages"
+                        src="image/pexels-photo-739365-700x500.jpeg"
+                        alt="" />
+                        <!-- <h1 class="text-lg font-semibold text-white bg-black rounded-md  w-36 ps-3 ms-5 -mt-10">Popular Tour</h1> -->
+                    
+                    <div class="card-body">
+                      <h2 class="text-xl font-semibold text-start">A Tour of the Best High Altitude Campsites</h2>
+                      <p class="text-lg ">March 10, 2023•Jane Smith </p>
+                      <div class="bt-group">
+                        <button class="btn hover:btn-warning hover:text-white me-2">Camping</button>
+                        <button class="btn hover:btn-warning hover:text-white">Travel</button>
+                    </div>
+                    </div>
+                    </div>
+      
+              <!-- card3 -->
+      
+                    <div class="card ">
+                        
+                      <img
+                      class="pages"
+                        src="image/anastasia-petrova-193818-unsplash-700x500.jpg"
+                        alt="" />
+                        <!-- <h1 class="text-lg font-semibold text-white bg-black rounded-md  w-36 ps-3 ms-5 -mt-10">Popular Tour</h1> -->
+                    
+                    <div class="card-body">
+                      <h2 class="text-xl font-semibold text-start">How to Pack for Comfort and Convenience</h2>
+                      <p class="text-lg "> March 10, 2023•Jane Smith</p>
+                      <div  id="bt-group">
+                          <button class="btn hover:btn-warning hover:text-white me-2">Camping</button>
+                          <button class="btn hover:btn-warning hover:text-white">Travel</button>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+              </div>
+
+              <!-- text part -->
+
+              <div class="hero ">
+                <div class="hero-content text-center">
+                  <div class="">
+                    <h1 class="text-3xl font-bold">We offer tours in a range of locations</h1>
+                    <p class=" mt-10 text-lg">
+                      Our mountain tours take you to the highest peaks,  where you can witness stunning vistas and <br>  enjoy the crisp mountain air. Our beach tours, on the other hand,   offer a chance to relax and unwind on the sandy shores.
+                    </p>
+                    <button class="btn btn-warning text-black me-2 mt-5">Discover Tour</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- carusol -->
+              <h1 id="pages-2" class="container mx-auto sm:ms-10 text-center text-2xl font-semibold mt-20 mb-10">What Customers Said<h1>  
+              <div id="blog" class=" carousel w-full">
+                <!-- card1 -->
+                <div id="slide1" class="carousel-item items-center justify-center relative w-full">
+                  <div class="relative p-10 rounded-lg bg-gray-100  items-center justify-center ">
+                    <!-- img -->
+                    <div class="avatar">
+                      <div class="w-24 rounded-full">
+                        <img  src="image/po6-150x150.jpg" />
+                      </div>
+                    </div>
+                    <!-- name and rating -->
+                    <div class="flex justify-between">
+                        <div>
+                          <h3 class="mt-5 text-2xl font-semibold">Brittany Clark</h3>
+                          <p class="text-lg">Traveler</p>
+                        </div>
+                        <div class="rating">
+                          <input type="radio" name="rating-1" class="mask mask-star bg-orange-400" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-orange-400"  />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-orange-400" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-orange-400" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-orange-400"checked="checked" />
+                        </div>
+                    </div>
+                    <!-- text -->
+                    <p class="text-lg mt-5">The tours in this website are great. I had been really <br> enjoy with my family! The team is very professional <br> and taking care of the customers. Will surely <br> recommend to my freind to join this company! </p>
+                  </div>
+                  <!-- arro -->
+                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+
+                <!-- card-2 -->
+
+                <div id="slide2" class="carousel-item items-center justify-center relative w-full">
+
+                 <div class="relative p-10 rounded-lg bg-slate-100 items-center justify-center ">
+                    <!-- img -->
+                    <div class="avatar">
+                      <div class="w-24 rounded-full">
+                        <img  src="image/p01-150x150.jpg" />
+                      </div>
+                    </div>
+                    <!-- name and rating -->
+                    <div class="flex justify-between">
+                        <div>
+                          <h3 class="mt-5 text-2xl font-semibold">Jane Smith</h3>
+                          <p class="text-lg">Traveler</p>
+                        </div>
+                        <div class="rating">
+                          <input type="radio" name="rating-1" class="mask mask-star bg-orange-400" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-orange-400"  />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-orange-400" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-orange-400" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-orange-400"checked="checked" />
+                        </div>
+                    </div>
+                    <!-- text -->
+                    <p class="text-lg mt-5">The tours in this website are great. I had been really <br> enjoy with my family! The team is very professional <br> and taking care of the customers. Will surely <br> recommend to my freind to join this company! </p>
+                  </div>
+                  <!-- arro -->
+                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+
+
+                <!-- card-3 -->
+                <div id="slide3" class="carousel-item items-center justify-center relative w-full">
+
+
+                  <div class="relative p-10 rounded-lg bg-slate-100 items-center justify-center ">
+                    <!-- img -->
+                    <div class="avatar">
+                      <div class="w-24 rounded-full">
+                        <img  src="image/po05-150x150.jpg" />
+                      </div>
+                    </div>
+                    <!-- name and rating -->
+                    <div class="flex justify-between">
+                        <div>
+                          <h3 class="mt-5 text-2xl font-semibold">David Doe
+                          </h3>
+                          <p class="text-lg">Traveler</p>
+                        </div>
+                        <div class="rating">
+                          <input type="radio" name="rating-1" class="mask mask-star bg-orange-400" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-orange-400"  />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-orange-400" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-orange-400" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-orange-400"checked="checked" />
+                        </div>
+                    </div>
+                    <!-- text -->
+                    <p class="text-lg mt-5">The tours in this website are great. I had been really <br> enjoy with my family! The team is very professional <br> and taking care of the customers. Will surely <br> recommend to my freind to join this company! </p>
+                  </div>
+
+                  <!-- arro -->
+                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+
+
+                <!-- card-4 -->
+                <div id="slide4" class="carousel-item items-center justify-center relative w-full">
+
+
+                  <div class="relative p-10 rounded-lg bg-slate-100 items-center justify-center ">
+                    <!-- img -->
+                    <div class="avatar">
+                      <div class="w-24 rounded-full">
+                        <img  src="image/p02-150x150.jpg" />
+                      </div>
+                    </div>
+                    <!-- name and rating -->
+                    <div class="flex justify-between">
+                        <div>
+                          <h3 class="mt-5 text-2xl font-semibold">Jennth Norz
+                          </h3>
+                          <p class="text-lg">Traveler</p>
+                        </div>
+                        <div class="rating">
+                          <input type="radio" name="rating-1" class="mask mask-star bg-orange-400" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-orange-400"  />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-orange-400" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-orange-400" />
+                          <input type="radio" name="rating-1" class="mask mask-star bg-orange-400"checked="checked" />
+                        </div>
+                    </div>
+                    <!-- text -->
+                    <p class="text-lg mt-5">The tours in this website are great. I had been really <br> enjoy with my family! The team is very professional <br> and taking care of the customers. Will surely <br> recommend to my freind to join this company! </p>
+                  </div>
+
+                  <!-- arro -->
+                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
+
+      
+      </main>
+
+
+          <!-- footer -->
+
+        <footer class="footer bg-black text-white p-10 mt-20">
+          <aside>
+           
+            <img src="image/logo-camper.png" alt="">
+            
+          </aside>
+          <nav>
+            <h6 class="text-xl font-bold">Useful Links</h6>
+            <a class="link link-hover text-lg">Customer Support</a>
+            <a class="link link-hover text-lg">Privacy & Policy</a>
+            <a class="link link-hover text-lg">Our Story</a>
+            <a class="link link-hover text-lg">Be Our Partner</a>
+          </nav>
+          <nav>
+            <h6 class="text-xl font-bold">Contact</h6>
+            <a class="link link-hover text-lg">M: 01905535413</a>
+            <a class="link link-hover text-lg">E: camper@gmail.com</a>
+            
+          </nav>
+          <nav>
+            <h6 class="text-xl font-bold">Pay Safely With Us</h6>
+            <a class=" text-lg">The payment is encrypted and <br> transmitted securely with an SSL <br> protocol.</a>
+            
+          </nav>
+
+          
+        </footer>
+        <footer class="footer footer-center bg-black text-white p-4">
+          <aside>
+            <p class="text-lg">Copyright © 2024 GoodLayers. All Rights Reserved.</p>
+          </aside>
+        </footer>
+
+
+
+
+
+
+</body>
+</html>
